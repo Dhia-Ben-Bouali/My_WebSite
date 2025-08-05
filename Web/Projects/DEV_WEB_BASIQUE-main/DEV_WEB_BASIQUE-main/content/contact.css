@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+
+* {
+
+    overflow-x: hidden;
+
+
+}
+
+a {
+    cursor: pointer;
+}
+
+
+
+
+
+.acontact {
+    margin-top: 10%;
+    font-size: 5vh;
+    text-align: center;
+    color: var(--f_adresse);
+}
+
+
+.grid {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    flex-grow: 1;
+    grid-template-columns: repeat(3, 50vh);
+
+    gap: 2vh;
+    margin-bottom: 1em;
+
+}
+
+.tile {
+    background: var(--headerbg_ebg_bgcards);
+    color: var(--f_adresse);
+    border-radius: 5vh;
+    font-size: 2vh;
+    box-shadow: var(--shadow);
+    text-align: center;
+    justify-content: center;
+    padding-top: 10Vh;
+    padding-bottom: 10vh;
+    align-items: center;
+}
+
+
+
+.tile svg {
+    height: 5vh;
+    width: 5vh;
+    fill: var(--svgfill_headerlist);
+}
+
+
+
+
+.contact {
+    margin-left: 12vh;
+    margin-top: 10%;
+
+
+}
+
+form {
+    color: var(--f_adresse);
+
+    padding: 3vh;
+    width: 90%;
+    background: var(--headerbg_ebg_bgcards);
+    border-radius: 1vh;
+    box-shadow: var(--shadow);
+
+
+}
+
+
+form .forum .group {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+form .forum .group input {
+    margin-top: .5vh;
+    padding: 1vh .5vh 1vh 3vh;
+    border-radius: .5vh;
+}
+
+
+
+form .forum .group textarea {
+    padding: 1vh .5vh 1vh 3vh;
+
+    border: .2vh solid rgb(72, 197, 72);
+    border-radius: .5vh;
+    box-shadow: var(--shadow);
+}
+
+form .btn button {
+    margin-top: 5vh;
+    background: transparent;
+    color: var(--ca_button_card);
+    font-size: 1.5vh;
+    border: rgb(72, 197, 72) solid .3vh;
+    padding: 1vh 2vh;
+    border-radius: .5vh;
+    margin-bottom: .2vh;
+    outline: none;
+    cursor: pointer;
+    transition: all .2s;
+
+
+}
+
+form .btn button:hover {
+    background-color: rgb(72, 197, 72);
+    color: white;
+
+    transform: translateY(-5%);
+}
+
+label {
+    font-size: 2vh;
+}
+
+
+

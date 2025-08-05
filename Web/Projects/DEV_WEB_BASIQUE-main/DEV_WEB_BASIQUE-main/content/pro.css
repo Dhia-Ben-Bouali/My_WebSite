@@ -1,0 +1,144 @@
+* {
+  overflow-x: hidden;
+}
+
+.svg {
+  height: 2vh;
+  width: 2vh;
+  margin-right: 1vh;
+  padding-top: 1vh;
+}
+
+
+
+.row {
+  margin-left: 2vh;
+  color: var(--f_adresse);
+  margin-top: 10%;
+  display: grid;
+  gap: 1.5vh;
+  grid-template-columns: repeat(auto-fit, minmax(25vh, 63vh));
+}
+
+.pricing {
+  text-align: center;
+  padding: 1vh;
+}
+
+svg {
+  height: 5vh;
+  width: 5vh;
+}
+
+h3 {
+  font-size: 2.5vh;
+  color: var(--f_adresse)
+}
+
+.pricing .pricing-item {
+  background: fixed;
+  padding: 1vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--headerbg_ebg_bgcards);
+  box-shadow: var(--shadow);
+  margin-top: 2vh;
+}
+
+.pricing-item svg {
+  transition: all 350ms;
+}
+
+.pricing :hover .notpro {
+  fill: #09c372;
+}
+
+.pricing :hover .pro {
+  fill: #ffa530;
+}
+
+.pricing .pricing-item:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1vh;
+  top: 0;
+  left: 0;
+  background: #88d99e;
+}
+
+.pricing .last:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1vh;
+  top: 0;
+  left: 0;
+  background: #ffa530;
+}
+
+.interval {
+  font-size: 1vh;
+  letter-spacing: .1vh;
+}
+
+.price {
+  font-size: 2vh;
+  color: #09c372;
+}
+
+.pricing ul {
+
+  list-style: none;
+  text-align: left;
+  padding: 0.5vh 0;
+  margin: 1vh 0 auto;
+}
+
+.pricing .pricing-item .pricing-icon {
+  margin-top: 10vh;
+  font-size: 3vh;
+  transition: all .3s ease-in-out;
+}
+
+.btn,
+.page-item {
+  margin: 0.25em 0.25em 0.25em 0;
+  color: white;
+  font-size: .625em;
+  letter-spacing: .1vh;
+  border: .2vh solid transparent;
+  padding: 1em 2em;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: .3vh;
+  vertical-align: bottom;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.btn-green {
+  font-size: 1.2vh;
+  background: #09c372;
+
+}
+
+.btn-green:hover {
+  transform: translateY(-5%);
+}
+
+
+.pricing .pricing-button {
+  display: block;
+  width: 100%;
+}
+
+.pricing-features li {
+  font-size: 1.5vh;
+
+}
+

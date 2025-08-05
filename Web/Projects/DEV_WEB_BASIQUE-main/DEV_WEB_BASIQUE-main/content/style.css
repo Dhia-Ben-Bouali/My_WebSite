@@ -1,0 +1,146 @@
+* {
+  overflow-x: hidden;
+}
+
+.a {
+  margin-left: 5%;
+  display: flex;
+  margin-top: 12%;
+  font-size: 4vh;
+  color: var(--a_d_navhover);
+  word-spacing: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+button {
+
+  background-color: transparent;
+  border-radius: .5vh;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  border: #fa8142 solid .3vh;
+  color: var(--ca_button_card);
+  cursor: pointer;
+  font-size: 2vh;
+  font-weight: 600;
+
+  padding: 1vh 2vh;
+  transition: all 250ms;
+}
+
+button:hover,
+button:focus {
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: white;
+  background-color: #fa8142;
+}
+
+button:hover {
+  transform: translateY(-5px);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 70vh;
+  margin-left: 10%;
+}
+
+.videoplayer {
+  border-radius: 1vh;
+  width: 100%;
+}
+
+#gamer {
+  background: linear-gradient(90deg, #fa8142, #ff4088);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#small {
+  color: var(--svgfill_headerlist);
+  font-size: 2vh;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.ca {
+  text-align: center;
+  margin-top: 15%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.ca span {
+
+  font-size: 3vh;
+  color: var(--ca_button_card);
+}
+
+.row {
+  align-items: center;
+  justify-content: center;
+  ;
+  gap: 10vh;
+  grid-template-columns: repeat(auto-fit, minmax(50vh, 70vh));
+  display: grid;
+}
+
+.card {
+
+  text-align: center;
+  transition: transform .3s;
+  padding: 2vh 2vh 5vh 2vh;
+  background: var(--headerbg_ebg_bgcards);
+  color: var(--ca_button_card);
+  box-shadow: var(--shadow);
+  margin: 0 0 1em;
+
+}
+
+.card button {
+  width: 90%;
+  height: 16%;
+  border: rgb(175, 237, 80) solid .2vh;
+  background: transparent;
+}
+
+.card button:hover {
+  background: rgb(175, 237, 80);
+}
+
+.card:hover {
+  transform: translateY(-1%);
+}
+
+.card .card-content {
+  padding: 2vh;
+  letter-spacing: 2px;
+}
+
+.d {
+  margin-top: 10%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+h2 {
+  font-size: 2.5vh;
+}
+
+
+.d span {
+  color: var(--a_d_navhover);
+  font-size: 5vh;
+}
+

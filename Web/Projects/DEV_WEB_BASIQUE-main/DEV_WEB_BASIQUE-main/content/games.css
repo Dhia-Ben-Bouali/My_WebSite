@@ -1,0 +1,91 @@
+header ul li {
+    overflow: hidden;
+
+}
+
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+button {
+
+    background-color: transparent;
+    border-radius: .5vh;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    border: #fa8142 solid .3vh;
+    color: var(--ca_button_card);
+    cursor: pointer;
+    font-size: 2vh;
+    font-weight: 600;
+
+    padding: 1vh 2vh;
+    transition: all 250ms;
+}
+
+button:hover,
+button:focus {
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: white;
+    background-color: #fa8142;
+}
+
+button:hover {
+    transform: translateY(-5px);
+}
+
+.ca {
+
+    text-align: center;
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.row {
+    align-items: center;
+    justify-content: center;
+
+    gap: 10vh;
+    grid-template-columns: repeat(auto-fit, minmax(60vh, 50vh));
+    grid-template-rows: repeat(auto-fit, minmax(60vh, 50vh));
+    display: grid;
+}
+
+.card {
+
+    text-align: center;
+    transition: transform .3s;
+    padding: 2px 2px 5px 2px;
+    background: var(--headerbg_ebg_bgcards);
+    color: var(--ca_button_card);
+    box-shadow: var(--shadow);
+    margin: 0 0 1em;
+
+}
+
+.card button {
+    width: 90%;
+    height: 16%;
+    border: rgb(175, 237, 80) solid .2vh;
+    background: transparent;
+}
+
+.card button:hover {
+    background: rgb(175, 237, 80);
+}
+
+.card:hover {
+    transform: translateY(-1%);
+}
+
+.card .card-content {
+    padding: 2vh;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 3vh;
+}
